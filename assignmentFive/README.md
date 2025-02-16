@@ -1,0 +1,1 @@
+All the classes I really enjoyed had a professor I connected with. It helps when a class is going at a speed that fits with how I learn. If a class is too slow, I dislike it. If a class is too fast, I am stressed.
