@@ -1,0 +1,4 @@
+I would like to do a photography website. I feel like it would be a fun creative project and a great chance to show off my friend's photography portfolio. I do not have her pictures this week, but I will reach out to her for website development next week. 
+
+Reflection:
+After the balance lesson, I tried to align my elements properly. I also wanted the colors to compliment the photography while also being easy to read with the text. I struggled to figure out how to align the pictures when the page is open on a half/split screen view instead of full view. Also, I struggled to write the code to properly align the text. I did a lot of research on how to add columns so I could have my lists side by side. I wasn't able to pull it off, but I at least have the columns to build off of for next week. I would love some advice on how to make the lists aligned better. 
