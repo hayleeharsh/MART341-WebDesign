@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>UnWINEd Reviews</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /*text styles*/
+        body {background-color: rgb(97, 54, 80);}
+        h1, h3, h4, blockquote, ul, address {color: rgb(255, 255, 255);}
+        h2, p, legend, label {color: rgb(213, 186, 212);}
+        h3 {text-align: left;}
+        ul {text-align: left;}
+        blockquote {text-align: center;}
+        h4 {text-align: center;}
+
+        /*link style*/
+    a:link {
+        color: rgb(255, 255, 255);
+         background-color: transparent;
+         text-decoration: none;
+            }
+
+    a:visited {
+         color: pink;
+        background-color: transparent;
+        text-decoration: none;
+        }
+
+    a:hover {
+     color: red;
+        background-color: transparent;
+        text-decoration: underline;
+    }
+
+    a:active {
+        color: rgb(255, 255, 255);
+        background-color: transparent;
+        text-decoration: underline;
+        }
+    
+    </style>
+</head>
+
+<body>
+
+    <a style="float: right; padding:10px" href="index.html">Home</a>
+    <a style="float: right; padding: 10px" href="reviews.html">Reviews</a>
+    <a style="float: right; padding: 10px" href="pairings.html">Pairings</a>
+<br>
+<br>
+
+    <h1 style="text-align: center;">UnWINEd Reviews</h1>
+    <h2 style="text-align: center;"><i>Cheap Wine Reviews and Ratings</i></h2>
+
+    <img src="images/whitewine.avif" width="33%"/>
+    <img src="images/vineyard.avif" width="33%"/>
+    <img src="images/redwine.avif" width="33%"/>
+    <br>
+    <p>
+        <blockquote>"Wine is bottled poetry" <br /> -Robert Louis Stevenson</blockquote>
+    </p>
+    
+
+            <h3><b>Types of Wine Reviewed:</b></h3>
+            <ul>
+                <li>Gas Station</li>
+                <li>Grocery Store</li>
+                <li>Anything under $25</li>
+            </ul>
+
+            <h3><b>Rating Scale:</b></h3>
+            <ul>
+                <li>5 Corks = Best</li>
+                <li>3 Corks = Medium</li>
+                <li>1 Cork = Worst</li>
+            </ul>
+
+
+    <br>
+   
+    <form action="mailto:haylee.harshbarger@umconnect.umt.edu" method="post" enctype="text/plain">
+        <h3 style="text-align: center;">Recommend a Bottle for Review</h3>
+        <fieldset>
+           <legend>Bottle Recommendation</legend>
+           <label>Your Name:<br />
+              <input type="name" name="name" required /></label>
+           <br />
+           <br>
+           <label>Bottle Recommendation:<br />
+              <input type="text" name="recommendation" required /></label>
+           <br />
+           <br>
+           <label>Description of the Bottle:<br />
+              <textarea name="description" rows="4" cols="50" placeholder="Describe bottle here..." required></textarea></label>
+        </fieldset>
+        
+        <br/>
+        
+        <input type="submit" value="Submit Recommendation" />
+     </form>
+    
+
+    <br>
+    <address>
+        UnWINEd Reviews <br />
+        1234 Sip Street <br />
+        Missoula, MT 59801 <br />
+        (406) 555-4747
+    </address>
+</body>
+</html>
